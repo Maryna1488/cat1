@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #858383;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    background: #fff;
+    
+   min-height: 500px;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #858383;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.conteinerfacts{
+    background-color: rgb(251, 243, 243);
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 0 20px 0;
+}
+.factsimg{
+    margin: 0 20px 0 0;
+    width: 400px;
+}
+.conteinermyth{
+    display: block;
+    background-color: rgb(251, 243, 243);
+    padding: 20px ;
+
+}
+.conteinermyth img{
+    width: 300px;
+}
+.mythtetitol {
+    text-align: center;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "big1 big1 small1 small2"
+      "big1 big1 small3 small4"
+      "small5 small6 big2 big2"
+      "small7 small8 big2 big2";
+      width: 700px;
+      height: 700px; 
+      margin: 0 auto 0 auto;
+  }
+  
+  .big1 { grid-area: big1; }
+  
+  .small1 { grid-area: small1; }
+  
+  .small2 { grid-area: small2; }
+  
+  .small3 { grid-area: small3; }
+  
+  .small4 { grid-area: small4; }
+  
+  .small5 { grid-area: small5; }
+  
+  .small6 { grid-area: small6; }
+  
+  .small7 { grid-area: small7; }
+  
+  .small8 { grid-area: small8; }
+  
+  .big2 { grid-area: big2; }
+  .imggrid{
+    width: 100%;
+    height: 100%;
+  }
+  
